@@ -103,6 +103,22 @@ body {
 	margin-left:25px;
 }
 
+header {
+	width:80%;
+	background-color:blue;
+	color:white;
+	margin-right:auto;
+	margin-left:auto;
+	padding:10px;
+	overflow:hidden;
+	border:1px solid #696;
+	border-radius:20px;
+}
+
+nav {
+	width:30%;
+	float:right;
+}
 
 
 
