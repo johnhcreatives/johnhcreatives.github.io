@@ -103,6 +103,7 @@ body {
 
 header {
 	height:150px;
+	width:100%;
 	background-color:black;
 	color:#A6A6A6;
 	overflow:hidden;
@@ -114,7 +115,7 @@ h1 {
 }	
 
 .inlineList {
-	margin-top:0;
+	margin-top:-5px;
 	display: flex;
 	list-style: none;
 	background-color:black;
@@ -122,7 +123,7 @@ h1 {
 }
 
 li a {
-    display: inline-block;
+	display: inline-block;
     color: #A6A6A6;
     text-align: center;
     padding: 14px 16px;
@@ -131,6 +132,7 @@ li a {
 
 li a:hover {
     background-color: gray;
+	color:black;
 }
 
 
