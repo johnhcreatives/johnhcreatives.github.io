@@ -109,9 +109,21 @@ header {
 	overflow:hidden;
 }
 
+main {
+	text-indent:15px;
+}	
+
 h1 {
 	margin-top:0;
 	font-size:1.5em;
+}	
+
+h2 {
+	font-size:1em;
+}
+
+p {
+	font-size:0.75em;
 }	
 
 .inlineList {
@@ -135,6 +147,14 @@ li a:hover {
 	color:black;
 }
 
+li {
+    font-size:0.75em;
+}
+
+footer {
+	font-size:0.75em;
+	text-indent:15px;
+}
 
 
 
