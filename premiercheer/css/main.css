@@ -107,7 +107,7 @@ url("fonts/varsity_regular-webfont.svg#varsity") format("svg");
    
 body {
 	font-family:Verdana,Helvetica,sans-serif;
-	width:80%;
+	max-width:1024px;
 	margin-right:auto;
     margin-left:auto;
 	border-style: solid;
