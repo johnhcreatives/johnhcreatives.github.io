@@ -96,14 +96,33 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+@font-face {
+font-family: "varsity";
+src: url("fonts/varsity_regular-webfont.eot");
+src: 
+url("fonts/varsity_regular-webfont.woff") format("woff"),
+url("fonts/varsity_regular.ttf") format("truetype"),
+url("fonts/varsity_regular-webfont.svg#varsity") format("svg");
+} 
+   
 body {
 	font-family:Verdana,Helvetica,sans-serif;
 }
 
+path {
+  fill: transparent;
+}
+
+text {
+  fill: red;
+}
+
 header {
-    width: 100%;
-    overflow: hidden;
+  background: linear-gradient(to bottom right, #0000ff 0%, #cc0000 100%);
+  font-family: "varsity";
+  font-weight:normal;
+  font-style:normal;
+  font-size: 28px;
 }
 
 header img {
@@ -138,7 +157,7 @@ p {
 	margin-top:-5px;
 	display: flex;
 	list-style: none;
-	background-color:blue;
+	background-color:darkblue;
 	color:white;
 }
 
